@@ -116,6 +116,7 @@ JavaScript (JS) es un lenguaje de programación interpretado, ligero y multiplat
      </body>
    </html>
    ```
+
 5. Escribe el siguiente código en `formulario.js`:
    ```js
    document.addEventListener("DOMContentLoaded", function () {
@@ -134,14 +135,42 @@ JavaScript (JS) es un lenguaje de programación interpretado, ligero y multiplat
 ## Parte 6: Preguntas de reflexión
 
 1. ¿Qué hace `console.log`?
+   - Muestra el contenido por consola
+
 2. ¿Qué ocurre si cambias el valor de la variable desde la consola? ¿Se puede?
+   - Si, si se puede cambiar, pero el cambio solo dura hasta que vuelvas a recargar la pagina
+
 3. ¿Para qué sirve la consola del navegador en este contexto?
+   - Para hacer pruebas directamente sobre el codigo JavaScript, esto tambien permite la comprobación de errores.
+
 4. Para qué sirve el archivo HTML en este contexto?
+   - Sirve para definir la estructura y el contenido de la pagina web.
+     Por ejemplo, en este caso contiene el formulario, los textos,etc.
+
 5. ¿Por qué es una buena práctica separar el código JavaScript del HTML?
+   - Porque facilita la lectura del código, también se separa la responsabilidad y puedes reutilizar el código js en varias páginas.
+
 6. Por qué se llama Vanilla JavaScript?
+   - Significa "natural", para distinguir el JavaScript puro.
+
 7. Cuándo se usa JavaScript puro y cuándo se usan frameworks o librerías como REACT?
+   - Para proyectos pequeños puede bastar JavaScript puro; para aplicaciones grandes y dinámicas, React facilita el desarrollo y el mantenimiento.
+
 8. Cómo se define una función en JS
-9. Sobre el código demuestra la diferencia entre let y const
+
+- Se define con la palabra clave "function", seguida de un nombre, paréntesis y un bloque de código
+
+9.  Sobre el código demuestra la diferencia entre let y const
+
+- let permite declarar una variable cuyo valor puede cambiar. const declara una constante cuyo valor no se puede modificar.
+
 10. Indica en el código:
 11. Si puede evitarse el uso de let. Qué hace
-12. Cuántos eventos hay en el código, cuáles son y para qué sirven
+
+- Sí, en este código se puede evitar el uso de "let" y sustituirlo por "const".
+  Para este caso "const" sería mas correcto para guardar la varible nombre ya que esta no cambia.
+
+1.  Cuántos eventos hay en el código, cuáles son y para qué sirven
+
+- DOMContentLoaded: espera a que cargue el HTML.
+- submit: se ejecuta al enviar el formulario y muestra el saludo sin recargar la página.
