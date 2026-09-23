@@ -135,26 +135,33 @@ JavaScript (JS) es un lenguaje de programación interpretado, ligero y multiplat
 ## Parte 6: Preguntas de reflexión
 
 1. ¿Qué hace `console.log`?
-   - Muestra el contenido por consola
+   
+- Muestra el contenido por consola
 
-2. ¿Qué ocurre si cambias el valor de la variable desde la consola? ¿Se puede?
-   - Si, si se puede cambiar, pero el cambio solo dura hasta que vuelvas a recargar la pagina
+3. ¿Qué ocurre si cambias el valor de la variable desde la consola? ¿Se puede?
+   
+- Si, si se puede cambiar, pero el cambio solo dura hasta que vuelvas a recargar la pagina
 
-3. ¿Para qué sirve la consola del navegador en este contexto?
-   - Para hacer pruebas directamente sobre el codigo JavaScript, esto tambien permite la comprobación de errores.
+4. ¿Para qué sirve la consola del navegador en este contexto?
+   
+- Para hacer pruebas directamente sobre el codigo JavaScript, esto tambien permite la comprobación de errores.
 
-4. Para qué sirve el archivo HTML en este contexto?
-   - Sirve para definir la estructura y el contenido de la pagina web.
-     Por ejemplo, en este caso contiene el formulario, los textos,etc.
+5. Para qué sirve el archivo HTML en este contexto?
+   
+- Sirve para definir la estructura y el contenido de la pagina web.
+  Por ejemplo, en este caso contiene el formulario, los textos,etc.
 
-5. ¿Por qué es una buena práctica separar el código JavaScript del HTML?
-   - Porque facilita la lectura del código, también se separa la responsabilidad y puedes reutilizar el código js en varias páginas.
+6. ¿Por qué es una buena práctica separar el código JavaScript del HTML?
+   
+- Porque facilita la lectura del código, también se separa la responsabilidad y puedes reutilizar el código js en varias páginas.
 
-6. Por qué se llama Vanilla JavaScript?
-   - Significa "natural", para distinguir el JavaScript puro.
+7. Por qué se llama Vanilla JavaScript?
+   
+- Significa "natural", para distinguir el JavaScript puro.
 
-7. Cuándo se usa JavaScript puro y cuándo se usan frameworks o librerías como REACT?
-   - Para proyectos pequeños puede bastar JavaScript puro; para aplicaciones grandes y dinámicas, React facilita el desarrollo y el mantenimiento.
+8. Cuándo se usa JavaScript puro y cuándo se usan frameworks o librerías como REACT?
+   
+- Para proyectos pequeños puede bastar JavaScript puro; para aplicaciones grandes y dinámicas, React facilita el desarrollo y el mantenimiento.
 
 8. Cómo se define una función en JS
 
