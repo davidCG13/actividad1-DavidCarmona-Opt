@@ -78,7 +78,8 @@ JavaScript (JS) es un lenguaje de programación interpretado, ligero y multiplat
    ```
 4. Desde VSCode abre el archivo `hola.html` en tu navegador.
 5. Observa el resultado en la consola del navegador.
-   [text](00JSyEntorno/hola.html)
+
+   [Enlace a hola.html](./00JSyEntorno/hola.html)
 
 ## Parte 4: Experimenta
 
@@ -132,31 +133,38 @@ JavaScript (JS) es un lenguaje de programación interpretado, ligero y multiplat
    });
    ```
 6. Desde VSCode abre `formulario.html` en tu navegador y prueba el formulario.
-   [text](00JSyEntorno/formulario.html)
+   [Enlace a formulario.html](./00JSyEntorno/formulario.html)
 
 ## Parte 6: Preguntas de reflexión
 
 1. ¿Qué hace `console.log`?
-   - Muestra el contenido por consola
 
-2. ¿Qué ocurre si cambias el valor de la variable desde la consola? ¿Se puede?
-   - Si, si se puede cambiar, pero el cambio solo dura hasta que vuelvas a recargar la pagina
+- Muestra el contenido por consola
 
-3. ¿Para qué sirve la consola del navegador en este contexto?
-   - Para hacer pruebas directamente sobre el codigo JavaScript, esto tambien permite la comprobación de errores.
+3. ¿Qué ocurre si cambias el valor de la variable desde la consola? ¿Se puede?
 
-4. Para qué sirve el archivo HTML en este contexto?
-   - Sirve para definir la estructura y el contenido de la pagina web.
-     Por ejemplo, en este caso contiene el formulario, los textos,etc.
+- Si, si se puede cambiar, pero el cambio solo dura hasta que vuelvas a recargar la pagina
 
-5. ¿Por qué es una buena práctica separar el código JavaScript del HTML?
-   - Porque facilita la lectura del código, también se separa la responsabilidad y puedes reutilizar el código js en varias páginas.
+4. ¿Para qué sirve la consola del navegador en este contexto?
 
-6. Por qué se llama Vanilla JavaScript?
-   - Significa "natural", para distinguir el JavaScript puro.
+- Para hacer pruebas directamente sobre el codigo JavaScript, esto tambien permite la comprobación de errores.
 
-7. Cuándo se usa JavaScript puro y cuándo se usan frameworks o librerías como REACT?
-   - Para proyectos pequeños puede bastar JavaScript puro; para aplicaciones grandes y dinámicas, React facilita el desarrollo y el mantenimiento.
+5. Para qué sirve el archivo HTML en este contexto?
+
+- Sirve para definir la estructura y el contenido de la pagina web.
+  Por ejemplo, en este caso contiene el formulario, los textos,etc.
+
+6. ¿Por qué es una buena práctica separar el código JavaScript del HTML?
+
+- Porque facilita la lectura del código, también se separa la responsabilidad y puedes reutilizar el código js en varias páginas.
+
+7. Por qué se llama Vanilla JavaScript?
+
+- Significa "natural", para distinguir el JavaScript puro.
+
+8. Cuándo se usa JavaScript puro y cuándo se usan frameworks o librerías como REACT?
+
+- Para proyectos pequeños puede bastar JavaScript puro; para aplicaciones grandes y dinámicas, React facilita el desarrollo y el mantenimiento.
 
 8. Cómo se define una función en JS
 
